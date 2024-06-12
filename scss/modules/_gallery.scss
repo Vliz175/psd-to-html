@@ -1,0 +1,26 @@
+.site_gallery {
+  .container {
+    max-width: 80vw;
+    // border: 2px solid black;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .column1,
+    .column2,
+    .column3 {
+      width: 30%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      margin-right: 1rem;
+      .item {
+        margin-bottom: 1rem;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

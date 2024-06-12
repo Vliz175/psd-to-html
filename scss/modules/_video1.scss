@@ -1,0 +1,139 @@
+.site_video1 {
+  background: url("../../img/bg_video.png");
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: auto;
+  padding: 2rem;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+
+  .container {
+    margin: auto;
+    max-width: 80vw;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // border: 1px solid white;
+
+    .head {
+      border-bottom: 2px solid white;
+      width: fit-content;
+
+      h1 {
+        font-family: "Cardo", serif;
+        color: white;
+        font-size: 3rem;
+      }
+    }
+
+    .text {
+      margin-top: 1rem;
+      width: 80%;
+      p {
+        font-family: "Cardo", serif;
+        font-size: 1.3rem;
+        text-align: center;
+      }
+    }
+  }
+}
+
+//? Start Responsive Tablet
+@media screen and (max-width: 768px) {
+  .site_video1 {
+    background: url("../../img/bg_video.png");
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    padding: 2rem;
+    //   display: flex;
+    //   justify-content: center;
+    //   align-items: center;
+
+    .container {
+      margin: auto;
+      max-width: 80vw;
+      max-height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      // border: 1px solid white;
+
+      .head {
+        border-bottom: 2px solid white;
+        width: fit-content;
+
+        h1 {
+          font-family: "Cardo", serif;
+          color: white;
+          font-size: 3rem;
+        }
+      }
+
+      .text {
+        margin-top: 1rem;
+        width: 80%;
+        p {
+          font-family: "Cardo", serif;
+          font-size: 1.3rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+//? End Responsive Tablet
+
+//? Start Responsive Mobile
+@media screen and (max-width: 576px) {
+  .site_video1 {
+    background: url("../../img/bg_video.png");
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    padding: 2rem;
+    //   display: flex;
+    //   justify-content: center;
+    //   align-items: center;
+
+    .container {
+      margin: auto;
+      max-width: 80vw;
+      max-height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      // border: 1px solid white;
+
+      .head {
+        border-bottom: 2px solid white;
+        width: fit-content;
+
+        h1 {
+          font-family: "Cardo", serif;
+          color: white;
+          font-size: 3rem;
+        }
+      }
+
+      .text {
+        margin-top: 1rem;
+        width: 80%;
+        p {
+          font-family: "Cardo", serif;
+          font-size: 1.1rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+//? End Responsive Mobile

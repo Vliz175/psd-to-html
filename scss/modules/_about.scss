@@ -1,0 +1,173 @@
+.site_about {
+  .container {
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: row;
+    max-width: 70vw;
+    overflow: hidden;
+    width: 100vw;
+    // border: 2px solid black;
+
+    .img {
+      border-right: 2px solid black;
+      padding: 1rem;
+      width: fit-content;
+
+      img {
+        max-width: 16rem;
+      }
+    }
+
+    .text {
+      padding: 1rem;
+
+      h1 {
+        font-family: "Alex Brush", cursive;
+        font-size: 4rem;
+        letter-spacing: 1px;
+      }
+
+      p {
+        font-family: "Poppins", sans-serif;
+      }
+
+      .button {
+        margin-top: 4rem;
+
+        a {
+          text-decoration: none;
+          border: 2px solid black;
+          padding: 0.5rem;
+          color: black;
+          transition: 0.1s;
+          font-family: "Roboto", sans-serif;
+        }
+
+        a:hover,
+        a:active {
+          background-color: #dfa878;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+//? Start Responsive Tablet
+@media screen and (max-width: 768px) {
+  .site_about {
+    .container {
+      margin: 4rem auto;
+      display: flex;
+      flex-direction: row;
+      max-width: 70vw;
+      overflow: hidden;
+      width: 100vw;
+      // border: 2px solid black;
+
+      .img {
+        border-right: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        width: fit-content;
+
+        img {
+          max-width: 13rem;
+        }
+      }
+
+      .text {
+        padding: 1rem;
+
+        h1 {
+          font-family: "Alex Brush", cursive;
+          font-size: 3rem;
+          letter-spacing: 1px;
+        }
+
+        p {
+          font-family: "Poppins", sans-serif;
+          font-size: 0.9rem;
+        }
+
+        .button {
+          margin-top: 2rem;
+
+          a {
+            text-decoration: none;
+            border: 2px solid black;
+            padding: 0.5rem;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
+//? End Responsive Tablet
+
+//? Start Responsive Mobile
+@media screen and (max-width: 576px) {
+  .site_about {
+    .container {
+      margin: 4rem auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 70vw;
+      overflow: hidden;
+      width: 100vw;
+      // border: 2px solid black;
+
+      .img {
+        border-bottom: 2px solid black;
+        border-right: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        width: fit-content;
+
+        img {
+          max-width: 13rem;
+        }
+      }
+
+      .text {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+          font-family: "Alex Brush", cursive;
+          font-size: 2.8rem;
+          letter-spacing: 1px;
+        }
+
+        p {
+          font-family: "Poppins", sans-serif;
+          font-size: 0.9rem;
+          text-align: center;
+        }
+
+        .button {
+          margin: 2rem auto;
+
+          a {
+            text-decoration: none;
+            border: 2px solid black;
+            padding: 0.5rem;
+            color: black;
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+  }
+}
+//? End Responsive Mobile

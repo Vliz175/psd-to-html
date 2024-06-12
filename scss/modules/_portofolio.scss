@@ -1,0 +1,195 @@
+.site_portofolio {
+  background-image: url("../../img/portofolio.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  width: auto;
+
+  .container {
+    margin: auto;
+    max-width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .main {
+      border-bottom: 2px solid white;
+
+      .one {
+        font-family: "Alex Brush", cursive;
+        font-size: 4rem;
+        text-align: center;
+        letter-spacing: 1px;
+      }
+
+      .two {
+        font-family: "Cardo", serif;
+        font-size: 3rem;
+        color: white;
+        text-align: center;
+        letter-spacing: 1px;
+      }
+    }
+
+    .second {
+      margin-top: 1rem;
+      p {
+        font-family: "Cardo", serif;
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+      }
+
+      .btn {
+        width: fit-content;
+        height: fit-content;
+        margin: 2rem auto;
+
+        a {
+          border: 2px solid black;
+          font-family: "Roboto", sans-serif;
+          text-decoration: none;
+          padding: 0.5rem;
+          color: black;
+          transition: 0.1s;
+        }
+
+        a:active,
+        a:hover {
+          background-color: #dfa878;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+//? Start Responsive Tablet
+@media screen and (max-width: 768px) {
+  .site_portofolio {
+    background-image: url("../../img/portofolio.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+
+    .container {
+      margin: auto;
+      max-width: 70vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .main {
+        border-bottom: 2px solid white;
+
+        .one {
+          font-family: "Alex Brush", cursive;
+          font-size: 4rem;
+          text-align: center;
+          letter-spacing: 1px;
+        }
+
+        .two {
+          font-family: "Cardo", serif;
+          font-size: 3rem;
+          color: white;
+          text-align: center;
+          letter-spacing: 1px;
+        }
+      }
+
+      .second {
+        margin-top: 1rem;
+        p {
+          font-family: "Cardo", serif;
+          font-size: 1.6rem;
+          letter-spacing: 1px;
+        }
+
+        .btn {
+          width: fit-content;
+          height: fit-content;
+          margin: 2rem auto;
+
+          a {
+            border: 2px solid black;
+            font-family: "Roboto", sans-serif;
+            text-decoration: none;
+            padding: 0.5rem;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
+//? End Responsive Tablet
+
+//? Start Responsive Mobile
+@media screen and (max-width: 576px) {
+  .site_portofolio {
+    background-image: url("../../img/portofolio.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    width: auto;
+
+    .container {
+      margin: auto;
+      max-width: 70vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .main {
+        border-bottom: 2px solid white;
+
+        .one {
+          font-family: "Alex Brush", cursive;
+          font-size: 4rem;
+          text-align: center;
+          letter-spacing: 1px;
+        }
+
+        .two {
+          font-family: "Cardo", serif;
+          font-size: 3rem;
+          color: white;
+          text-align: center;
+          letter-spacing: 1px;
+        }
+      }
+
+      .second {
+        margin-top: 1rem;
+        p {
+          font-family: "Cardo", serif;
+          font-size: 1.6rem;
+          letter-spacing: 1px;
+          text-align: center;
+        }
+
+        .btn {
+          width: fit-content;
+          height: fit-content;
+          margin: 2rem auto;
+
+          a {
+            border: 2px solid black;
+            font-family: "Roboto", sans-serif;
+            text-decoration: none;
+            padding: 0.5rem;
+            color: black;
+            transition: 0.11s;
+          }
+        }
+      }
+    }
+  }
+}
+//? End Responsive Mobile

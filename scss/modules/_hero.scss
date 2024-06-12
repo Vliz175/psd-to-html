@@ -1,0 +1,190 @@
+.site_hero {
+  .container {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url("../../img/bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .banner {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        max-width: fit-content;
+        max-height: fit-content;
+        border-bottom: 2px solid white;
+
+        h1 {
+          font-family: "Alex Brush", cursive;
+          color: aliceblue;
+          font-size: 3rem;
+          letter-spacing: 0.3rem;
+        }
+      }
+    }
+
+    .text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 1rem;
+      max-width: 70vw;
+
+      h1 {
+        color: white;
+        font-family: "Cardo", serif;
+        font-size: 2.7rem;
+        letter-spacing: 0.1rem;
+      }
+
+      p {
+        color: white;
+        text-align: center;
+        font-size: 1rem;
+        font-family: "Poppins", sans-serif;
+      }
+    }
+  }
+}
+
+//? Start Responsive Tablet
+@media screen and (max-width: 768px) {
+  .site_hero {
+    .container {
+      min-width: 100vw;
+      min-height: 100vh;
+      background-image: url("../../img/bg.png");
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .logo {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          max-width: fit-content;
+          max-height: fit-content;
+          border-bottom: 2px solid white;
+
+          h1 {
+            font-family: "Alex Brush", cursive;
+            color: aliceblue;
+            font-size: 3rem;
+            letter-spacing: 0.3rem;
+          }
+        }
+      }
+
+      .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 1rem;
+        max-width: 70vw;
+
+        h1 {
+          color: white;
+          font-family: "Cardo", serif;
+          font-size: 2.7rem;
+          letter-spacing: 0.1rem;
+        }
+
+        p {
+          color: white;
+          text-align: center;
+          font-size: 1rem;
+          font-family: "Poppins", sans-serif;
+        }
+      }
+    }
+  }
+}
+//? End Responsive Tablet
+
+//? Start Responsive Mobile
+@media screen and (max-width: 576px) {
+  .site_hero {
+    .container {
+      min-width: 100vw;
+      min-height: 100vh;
+      background-image: url("../../img/bg.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .logo {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          max-width: fit-content;
+          max-height: fit-content;
+          border-bottom: 2px solid white;
+
+          img {
+            max-width: 80vw;
+          }
+
+          h1 {
+            font-family: "Alex Brush", cursive;
+            color: aliceblue;
+            font-size: 2rem;
+            letter-spacing: 0.3rem;
+          }
+        }
+      }
+
+      .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 1rem;
+        max-width: 70vw;
+
+        h1 {
+          color: white;
+          font-family: "Cardo", serif;
+          font-size: 1.3rem;
+          letter-spacing: 0rem;
+        }
+
+        p {
+          color: white;
+          text-align: center;
+          font-size: 0.7rem;
+          font-family: "Poppins", sans-serif;
+        }
+      }
+    }
+  }
+}
+//? End Responsive Mobile

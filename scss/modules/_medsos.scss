@@ -1,0 +1,95 @@
+.site_medsos {
+  .container {
+    position: fixed;
+    right: 2vw;
+    top: 30vh;
+
+    ul {
+      //   background-color: black;
+      width: fit-content;
+
+      li {
+        list-style: none;
+        min-width: 3rem;
+        min-height: 3rem;
+        line-height: 3rem;
+        text-align: center;
+
+        a {
+          color: rgb(100, 96, 96);
+          line-height: 2rem;
+          text-align: center;
+          font-size: 1.2rem;
+          transition: 0.2s;
+        }
+
+        a:hover,
+        a:active {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+//? Start Responsive Tablet
+@media screen and (max-width: 768px) {
+  .site_medsos {
+    .container {
+      position: fixed;
+      right: 2vw;
+      top: 30vh;
+
+      ul {
+        //   background-color: black;
+        width: fit-content;
+
+        li {
+          list-style: none;
+          min-width: 3rem;
+          min-height: 3rem;
+          line-height: 2rem;
+          text-align: center;
+
+          a {
+            line-height: 2rem;
+            text-align: center;
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}
+//? End Responsive Tablet
+
+//? Start Responsive Mobile
+@media screen and (max-width: 576px) {
+  .site_medsos {
+    .container {
+      position: fixed;
+      right: 2vw;
+      top: 30vh;
+
+      ul {
+        //   background-color: black;
+        width: fit-content;
+
+        li {
+          list-style: none;
+          min-width: 3rem;
+          min-height: 3rem;
+          line-height: 2rem;
+          text-align: center;
+
+          a {
+            line-height: 2rem;
+            text-align: center;
+            font-size: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+}
+//? End Responsive Mobile

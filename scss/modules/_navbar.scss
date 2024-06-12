@@ -1,0 +1,154 @@
+.site_navbar {
+  z-index: 2;
+
+  i {
+    display: none;
+  }
+
+  nav {
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    ul {
+      z-index: 2;
+      min-width: 70vw;
+      display: flex;
+      //   background-color: purple;
+      flex-direction: row;
+      padding: 1rem;
+      justify-content: space-around;
+
+      li {
+        list-style: none;
+        // background-color: purple;
+        box-sizing: border-box;
+
+        a {
+          text-decoration: none;
+          transition: 0.1s;
+          color: whitesmoke;
+          font-family: "Poppins", sans-serif;
+          font-weight: lighter;
+        }
+
+        a:hover,
+        a:active {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+//? Start Responsive Tablet
+@media screen and (max-width: 768px) {
+  .site_navbar {
+    nav {
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      ul {
+        min-width: 70vw;
+        display: flex;
+        //   background-color: purple;
+        flex-direction: row;
+        padding: 1rem;
+        justify-content: space-between;
+
+        li {
+          list-style: none;
+          // background-color: purple;
+          box-sizing: border-box;
+
+          a {
+            text-decoration: none;
+            transition: 0.1s;
+            font-size: 0.9rem;
+          }
+
+          a:hover,
+          a:active {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+//? End responsive Tablet
+
+//? Start Responsive Mobile
+@media screen and (max-width: 576px) {
+  .site_navbar {
+    z-index: 99999;
+
+    i {
+      display: block;
+      position: fixed;
+      top: 1.5rem;
+      left: 1rem;
+      font-size: 1.5rem;
+      z-index: 10;
+      cursor: pointer;
+      color: $warnaTombol;
+    }
+
+    .hide {
+      transform: translateX(-800px);
+    }
+
+    nav {
+      height: 100vh;
+      max-width: 80vw;
+      min-width: 40vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #e1e1e1;
+      transition: 0.5s;
+      position: fixed;
+      z-index: 9;
+
+      ul {
+        min-height: 70vh;
+        display: flex;
+        //   background-color: purple;
+        flex-direction: column;
+        padding: 1rem;
+        justify-content: space-between;
+        // align-content: space-between;
+
+        li {
+          list-style: none;
+          display: flex;
+          align-items: center;
+          width: 100%;
+          // border: 2px solid black;
+          // background-color: purple;
+
+          a {
+            text-decoration: none;
+            transition: 0.1s;
+            font-size: 0.7rem;
+            padding: auto;
+            color: black;
+            // background-color: #fff;
+          }
+
+          a:hover,
+          a:active {
+            transform: scale(0.8);
+          }
+        }
+      }
+    }
+  }
+}
+//? End responsive Mobile

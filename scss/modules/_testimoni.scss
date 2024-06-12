@@ -1,0 +1,254 @@
+.site_testimoni {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 85vw;
+    margin: 1rem auto;
+
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      h1 {
+        font-family: "Alex Brush", cursive;
+        letter-spacing: 1px;
+        font-size: 4rem;
+      }
+
+      h2 {
+        font-weight: lighter;
+        font-family: "Cardo", serif;
+        font-size: 2rem;
+      }
+    }
+
+    .card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -3rem;
+
+      .item {
+        // border: 1px solid black;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 1rem;
+
+        img {
+          width: 80%;
+          transform: translateY(4.2rem);
+        }
+
+        .text {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          width: 90%;
+          border: 2px solid black;
+          padding: 4rem 1rem 1rem 1rem;
+
+          p.name {
+            text-align: center;
+            font-size: 1.4rem;
+            font-weight: bold;
+            margin: 1rem 0;
+            font-family: "Cardo", serif;
+          }
+
+          p {
+            text-align: center;
+            font-size: 1rem;
+            font-family: "Poppins", sans-serif;
+          }
+        }
+      }
+    }
+
+    .button {
+      margin-top: 2rem;
+      a {
+        font-family: "Roboto", sans-serif;
+        text-decoration: none;
+        color: black;
+        border: 2px solid black;
+        padding: 0.5rem 1rem;
+        transition: 0.1s;
+      }
+
+      a:hover,
+      a:active {
+        background-color: $warnaTombol;
+        color: white;
+      }
+    }
+  }
+}
+
+//? Start Responsive Tablet
+@media screen and (max-width: 768px) {
+  .site_testimoni {
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      max-width: 85vw;
+      margin: 1rem auto;
+
+      header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h1 {
+          font-family: "Alex Brush", cursive;
+          letter-spacing: 1px;
+          font-size: 4rem;
+        }
+
+        h2 {
+          font-weight: lighter;
+          font-family: "Cardo", serif;
+          font-size: 1.5rem;
+        }
+      }
+
+      .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -3rem;
+
+        .item {
+          // border: 1px solid black;
+          width: 32%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          margin: 0 1rem;
+
+          img {
+            width: 90%;
+            transform: translateY(4.2rem);
+          }
+
+          .text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 90%;
+            border: 2px solid black;
+            padding: 4rem 1rem 1rem 1rem;
+
+            p.name {
+              text-align: center;
+              font-size: 1.1rem;
+              font-weight: bold;
+              margin: 1rem 0;
+              font-family: "Cardo", serif;
+            }
+
+            p {
+              text-align: center;
+              font-size: 0.8rem;
+              font-family: "Poppins", sans-serif;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//? End Responsive Tablet
+
+//? Start Responsive Mobile
+@media screen and (max-width: 576px) {
+  .site_testimoni {
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      max-width: 85vw;
+      margin: 1rem auto;
+
+      header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h1 {
+          font-family: "Alex Brush", cursive;
+          letter-spacing: 1px;
+          font-size: 2.8rem;
+        }
+
+        h2 {
+          font-weight: lighter;
+          font-family: "Cardo", serif;
+          font-size: 1.4rem;
+        }
+      }
+
+      .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -3rem;
+        flex-wrap: wrap;
+
+        .item {
+          // border: 1px solid black;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          margin: 0 1rem;
+
+          img {
+            width: 80%;
+            transform: translateY(4.2rem);
+          }
+
+          .text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 90%;
+            border: 2px solid black;
+            padding: 4rem 1rem 1rem 1rem;
+
+            p.name {
+              text-align: center;
+              font-size: 1.1rem;
+              font-weight: bold;
+              margin: 1rem 0;
+              font-family: "Cardo", serif;
+            }
+
+            p {
+              text-align: center;
+              font-size: 0.8rem;
+              font-family: "Poppins", sans-serif;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//? End Responsive Mobile

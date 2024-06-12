@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+}
+@import "modules/variabel.scss";
+@import "modules/_navbar.scss";
+@import "modules/hero.scss";
+@import "modules/medsos";
+@import "modules/about";
+@import "modules/portofolio";
+@import "modules/gallery";
+@import "modules/video1";
+@import "modules/video2";
+@import "modules/testimoni";
+@import "modules/contact";
+@import "modules/footer";
